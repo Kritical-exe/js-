@@ -34,3 +34,26 @@ const myFunction = function(){ //function
 }
 
 console.log(typeof id) 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitve)
+
+let myName = "KritikaShrivastava"
+
+let anotherName = myName
+anotherName = "Kritical-exe"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+
+}
+let userTwo = userOne
+userTwo.email ="kritika@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
