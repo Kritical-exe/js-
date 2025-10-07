@@ -62,4 +62,27 @@ console.log(Object.keys(tinderUser)) //gives keys as array
 console.log(Object.values(tinderUser))//gives values as array
 console.log(Object.entries(tinderUser))//gives key-value pairs as nested arrays
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('isLoggedIn')) // checks if an object has a specific property as its own (not inherited) property
+  
+
+const course = {
+    coursename : "Javascript",
+    price : 999,
+    courseInstructor: "Kritika"
+}
+ //console.log(course.courseInstructor)
+
+ //de-structor Extracts values from objects or arrays into variables
+
+ const {courseInstructor:Instructor} = course // Renames 'courseInstructor' property to 'Instructor' while destructuring
+
+ console.log(Instructor)
+
+ {
+    "name": "kritika",
+    "coursename": "javascript", // Example of JSON data — stores information in key-value pairs
+    "price": "free"
+ }
+
+
+

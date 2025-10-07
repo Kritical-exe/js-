@@ -25,7 +25,7 @@ console.log(JsUser[mySym])
 
 JsUser.email = "@kritikagoogle.com"// = overrides the value of email
 console.log(JsUser.email)
-// Object.freeze(JsUser) // Object.freeze() stops any changes to an object
+Object.freeze(JsUser) // Object.freeze() stops any changes to an object
 JsUser.email = "@kritikamicro.com"
 console.log(JsUser)
 
